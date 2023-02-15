@@ -1,6 +1,10 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
 <%@ include file="layout/header.jsp"%>
+<br>
+<div style="text-align: center">
+	<img height="100px" width="300px" src="/image/front.png" />
+</div>
 
 <div class="container">
 	<c:forEach var="board" items="${boards.content}">
