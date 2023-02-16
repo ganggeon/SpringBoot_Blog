@@ -1,3 +1,5 @@
+<br>
+
 # SpringBoot-Project-BLOG  
 `SpringBoot` `JSP` `JPA` `MySQL` 를 사용하여 웹 게시판 구현
 
@@ -57,12 +59,11 @@ IDE : sts4 4.11.0
 
 ### 로그인
 ![로그인폼](https://user-images.githubusercontent.com/62833757/219378319-453371a3-a52f-4011-84e9-465c8da6499b.JPG)
-* Spring Security를 적용하여 권한이 없는 사용자가 게시글을 클릭 시 자동으로 로그인 폼으로 이동하게 구현하였다.
 * 로그인 시 유저 정보가 principal에 저장되고 Spring Security가 세션을 부여한다.
 
 ### 회원 정보 수정
 ![db](https://user-images.githubusercontent.com/62833757/219378284-b15c0ce5-2f9a-4968-9d33-2ab40466d78f.JPG)
-데이터베이스의 oauth 값에 따라 카카오 로그인의 회원 수정을 막는다.
+* 데이터베이스의 oauth 값에 따라 카카오 로그인의 회원 수정을 막는다.
 
 ![회원정보수정](https://user-images.githubusercontent.com/62833757/219378308-d2ae0a91-b212-4ca0-8bf8-0e6af5f2095e.JPG)
 * password와 email를 수정할 수 있다.
@@ -74,7 +75,8 @@ IDE : sts4 4.11.0
 ### 메인 화면 
 ![메인화면](https://user-images.githubusercontent.com/62833757/219378322-506100a9-74b9-441b-afff-1a241ff10e24.JPG)
 * 페이징 기능을 통해 한 페이지에서 최대 5개의 게시글이 조회된다.
-* 비회원은 회원가입 및 로그인을 통해 Spring Security로부터 세션을 부여받아야 글 작성이 가능하다. 권한이 없는 사용자가 게시글을 클릭 시 자동으로 로그인 폼으로 이동한다.
+* 비회원은 회원가입 및 로그인을 통해 Spring Security로부터 세션을 부여받아야 글 작성이 가능하다. 
+* Spring Security를 적용하여 권한이 없는 사용자가 게시글을 클릭 시 자동으로 로그인 폼으로 이동하게 구현하였다.
 
 ### 게시글 상세보기
 ![본인게시글](https://user-images.githubusercontent.com/62833757/219378328-4fcb3137-bae3-4177-85bd-a090cd13c12b.JPG)
@@ -87,7 +89,11 @@ IDE : sts4 4.11.0
 ![썸머노트작성폼](https://user-images.githubusercontent.com/62833757/219378316-592bc96c-c503-42d0-bf2b-e3d71acea5df.JPG)
 * summernote 웹 에디터를 적용하였다. 다양한 기능과 이미지 업로드를 사용할 수 있다.
 
-### 게시물 수정, 삭제
+### 게시물 수정
+![수정](https://user-images.githubusercontent.com/62833757/219387932-2be0f65f-f002-489f-9e25-1e8e5c104a77.JPG)
+
+### 게시물 삭제
+![삭제](https://user-images.githubusercontent.com/62833757/219387924-c1240df2-ef86-40c3-b13c-14304a25da78.JPG)
 
 ## 댓글 기능
 ### 댓글 작성
