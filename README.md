@@ -3,7 +3,7 @@
 # SpringBoot-Project-BLOG  
 - `SpringBoot` `JSP` `JPA` `MySQL` 를 사용하여 웹 게시판 구현
 - 진행 기간 :   
-2023.01.30 ~ 2023.02.14
+23.01.30 ~ 23.02.14
 - 기여도 :   
 100%
 
