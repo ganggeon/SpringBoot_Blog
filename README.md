@@ -1,7 +1,7 @@
 <br>
 
 # SpringBoot-Project-BLOG  
-- `SpringBoot` `JSP` `JPA` `MySQL` 를 사용하여 웹 게시판 구현
+`SpringBoot` `JSP` `JPA` `MySQL` 를 사용하여 웹 게시판 구현
 
 <br>
 
