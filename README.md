@@ -44,6 +44,9 @@ IDE : sts4 4.11.0
 <summary>실행 화면</summary>
 <div markdown="1">
 
+## 구동 화면
+<img src="https://user-images.githubusercontent.com/62833757/222586937-5ce15bdd-3fc4-401e-8def-a9c38c56ec0a.gif">
+
 ## 회원 기능
 ### 회원가입
 ![회원가입](https://user-images.githubusercontent.com/62833757/219378337-f2a76490-da23-45e5-84a0-1a40a9203ff5.JPG)
