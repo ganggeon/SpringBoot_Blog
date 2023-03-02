@@ -57,7 +57,8 @@ IDE : sts4 4.11.0
 * username에 unique제약조건을 적용해 중복 회원가입을 방지했다.
 
 ### 카카오 회원가입
-<img src="https://user-images.githubusercontent.com/62833757/222583372-652cd55d-edfb-4094-8a91-7448f0abfc21.gif">
+ <img src="https://user-images.githubusercontent.com/62833757/222583372-652cd55d-edfb-4094-8a91-7448f0abfc21.gif">
+ 
 * OAuth2를 적용해 카카오 로그인을 구현하였다. 
 
 ### 로그인
