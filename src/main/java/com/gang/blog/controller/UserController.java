@@ -79,6 +79,7 @@ public class UserController {
 		ResponseEntity<String> response = rt.exchange("https://kauth.kakao.com/oauth/token", HttpMethod.POST,
 				kakaoTokenRequest, String.class);
 
+		// ObjectMapper라이브러리를 사용해서 컨트롤러에서 json데이터를 처리하기 힘드니 자바 오브젝트로 바꾼다
 		ObjectMapper objectMapper = new ObjectMapper();
 		OAuthToken oauthToken = null;
 
@@ -108,8 +109,7 @@ public class UserController {
 		ResponseEntity<String> response2 = rt2.exchange("https://kapi.kakao.com/v2/user/me", HttpMethod.POST,
 				kakaoProfileRequest, String.class);
 
-		
-		
+		// ObjectMapper라이브러리를 사용해서 컨트롤러에서 json데이터를 처리하기 힘드니 자바 오브젝트로 바꾼다
 		ObjectMapper objectMapper2 = new ObjectMapper();
 		KakaoProfile kakaoProfile = null;
 
