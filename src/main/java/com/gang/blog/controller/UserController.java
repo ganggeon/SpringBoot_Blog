@@ -56,6 +56,7 @@ public class UserController {
 	@GetMapping("/auth/kakao/callback")
 	public String kakaoCallback(String code) { // data를 리턴해주는 컨트롤러 함수
 
+		// 카카오 토큰 받기
 		// post방식으로 key=value타입 데이터를 요청(카카오쪽으로)
 		RestTemplate rt = new RestTemplate();
 
@@ -91,6 +92,7 @@ public class UserController {
 
 		System.out.println(oauthToken.getAccess_token());
 
+		// 카카오 토큰으로 카카오 서버에 사용자 정보 요청하기
 		RestTemplate rt2 = new RestTemplate();
 
 		// HttpHeaders 오브젝트 생성
